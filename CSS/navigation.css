@@ -1,0 +1,31 @@
+.navbar-toggle {
+    z-index: 2;
+}
+
+.navbar-brand-center {
+    position: absolute;
+    width: 100%;
+    left: 0;
+    top: 0;
+    text-align:center;
+    margin: auto;
+}
+
+.nav-item{
+    border-color: #000000;
+  }
+
+@media (min-width: 768px) {
+    .navbar-brand-center {
+        margin-left: 0 !important;
+    }
+}
+
+button{
+    background-color: transparent;
+    border: none;
+    cursor: pointer;
+    outline: none;
+    padding: 0;
+    appearance: none;
+}
